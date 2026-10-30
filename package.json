@@ -1,0 +1,26 @@
+{
+  "name": "lost-and-found-service",
+  "version": "1.0.0",
+  "description": "Cloud-Ready Lost-and-Found Service for College Campuses (Problem Statement 41)",
+  "scripts": {
+    "test": "node server/tests/api.test.js",
+    "seed": "node server/scripts/seed.js",
+    "clear": "node server/scripts/clear.js",
+    "server": "node server/server.js",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "build:client": "cd client && npm run build"
+  },
+  "keywords": [
+    "lost-and-found",
+    "react",
+    "express",
+    "sqlite",
+    "postgres",
+    "docker",
+    "college",
+    "hackathon"
+  ],
+  "author": "Campus Engineering Team",
+  "license": "ISC"
+}
